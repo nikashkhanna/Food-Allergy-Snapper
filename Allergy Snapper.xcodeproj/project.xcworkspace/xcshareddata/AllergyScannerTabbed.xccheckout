@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>12EDE877-4111-4DE2-82BC-146809BC63A7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AllergyScannerTabbed</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1A4919F3A609DB4BB057FA5A9D2DB27D9A6D0447</key>
+		<string>https://github.com/nikashkhanna/AllergyScanner.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IOS/AllergyScannerTabbed/AllergyScannerTabbed.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1A4919F3A609DB4BB057FA5A9D2DB27D9A6D0447</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nikashkhanna/AllergyScanner.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1A4919F3A609DB4BB057FA5A9D2DB27D9A6D0447</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1A4919F3A609DB4BB057FA5A9D2DB27D9A6D0447</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AllergyScanner</string>
+		</dict>
+	</array>
+</dict>
+</plist>

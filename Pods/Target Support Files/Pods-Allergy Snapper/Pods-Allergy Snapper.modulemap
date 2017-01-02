@@ -1,0 +1,6 @@
+framework module Pods_Allergy_Snapper {
+  umbrella header "Pods-Allergy Snapper-umbrella.h"
+
+  export *
+  module * { export * }
+}

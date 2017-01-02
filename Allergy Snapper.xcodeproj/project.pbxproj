@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2424A0B91B861845007B3D37 /* button-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2424A0B81B861845007B3D37 /* button-2.png */; };
+		2424A0BB1B864F0A007B3D37 /* Good_Food_Display_-_NCI_Visuals_Online.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2424A0BA1B864F0A007B3D37 /* Good_Food_Display_-_NCI_Visuals_Online.jpg */; };
+		242B00A51B7EBEE100C4BB0B /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 242B00A41B7EBEE100C4BB0B /* tessdata */; };
+		242B00A91B7EBF0F00C4BB0B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242B00A81B7EBF0F00C4BB0B /* CoreImage.framework */; };
+		242B00AD1B7EBF5500C4BB0B /* FakeObjecticeCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 242B00AC1B7EBF5500C4BB0B /* FakeObjecticeCClass.m */; };
+		242CDE471BC4E67300ABB22D /* AllergenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242CDE461BC4E67300ABB22D /* AllergenCell.swift */; };
+		242CDE491BC4EFD800ABB22D /* addAllergenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 242CDE481BC4EFD800ABB22D /* addAllergenButton.png */; };
+		243280351B805F8500E31A8B /* camPic.png in Resources */ = {isa = PBXBuildFile; fileRef = 243280341B805F8500E31A8B /* camPic.png */; };
+		243280461B806B6C00E31A8B /* yellowButton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 243280451B806B6C00E31A8B /* yellowButton.jpg */; };
+		24358C291D08F659005AF799 /* CleverTapSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24358C281D08F659005AF799 /* CleverTapSDK.framework */; };
+		2450DD271B79347100082A8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450DD261B79347100082A8B /* AppDelegate.swift */; };
+		2450DD2E1B79347100082A8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2450DD2C1B79347100082A8B /* Main.storyboard */; };
+		2450DD301B79347100082A8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2450DD2F1B79347100082A8B /* Images.xcassets */; };
+		2450DD331B79347100082A8B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2450DD311B79347100082A8B /* LaunchScreen.xib */; };
+		2450DD3F1B79347100082A8B /* AllergyScannerTabbedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450DD3E1B79347100082A8B /* AllergyScannerTabbedTests.swift */; };
+		2450DD491B7934A200082A8B /* AddAllergenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450DD481B7934A200082A8B /* AddAllergenViewController.swift */; };
+		2450DD4B1B7934AA00082A8B /* UserAllergiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450DD4A1B7934AA00082A8B /* UserAllergiesTableViewController.swift */; };
+		2450DD4D1B7940DB00082A8B /* GetIngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2450DD4C1B7940DB00082A8B /* GetIngredientsViewController.swift */; };
+		2452EA021BC572A500E22A00 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2452EA011BC572A500E22A00 /* libstdc++.tbd */; };
+		2465CD271B794FEA00C6628A /* food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2465CD261B794FEA00C6628A /* food.jpg */; };
+		246B6DD31BC5B10D0070C763 /* checkButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 246B6DD21BC5B10D0070C763 /* checkButton.png */; };
+		24702C4C1B796205008A0509 /* TakePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24702C4B1B796205008A0509 /* TakePictureViewController.swift */; };
+		24850D411D33F60F00A2F269 /* libTrackAndAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 24850D3F1D33F60F00A2F269 /* libTrackAndAd.a */; };
+		24850D431D33F62700A2F269 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24850D421D33F62700A2F269 /* UIKit.framework */; };
+		24850D451D33F63000A2F269 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24850D441D33F63000A2F269 /* Foundation.framework */; };
+		24850D471D33F63800A2F269 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24850D461D33F63800A2F269 /* AdSupport.framework */; };
+		24850D491D33F64000A2F269 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24850D481D33F64000A2F269 /* iAd.framework */; };
+		24850D4B1D33F64D00A2F269 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24850D4A1D33F64D00A2F269 /* CoreLocation.framework */; };
+		2496F30B1B80772B0081A2C1 /* redButton.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2496F30A1B80772B0081A2C1 /* redButton.gif */; };
+		2496F3131B807B5E0081A2C1 /* alert.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2496F3121B807B5E0081A2C1 /* alert.gif */; };
+		249B093B1B85AB6100F9DF62 /* exclamation_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 249B093A1B85AB6100F9DF62 /* exclamation_red.png */; };
+		249B093D1B85ABC600F9DF62 /* error2.png in Resources */ = {isa = PBXBuildFile; fileRef = 249B093C1B85ABC600F9DF62 /* error2.png */; };
+		249CB9741B80196600A0FFD2 /* allergy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 249CB9731B80196600A0FFD2 /* allergy.jpg */; };
+		24A30DD11BC61607007DC4EE /* backgroundButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A30DD01BC61607007DC4EE /* backgroundButton.png */; };
+		24A707801B85A55000B4BDB6 /* Compact Camera Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A7077F1B85A55000B4BDB6 /* Compact Camera Filled-50.png */; };
+		24A707821B85A5AD00B4BDB6 /* User Menu Filled-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A707811B85A5AD00B4BDB6 /* User Menu Filled-50.png */; };
+		24A707861B85A75F00B4BDB6 /* allergenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A707851B85A75F00B4BDB6 /* allergenButton.png */; };
+		24A7078A1B85A86500B4BDB6 /* camera-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A707891B85A86500B4BDB6 /* camera-icon.png */; };
+		24A7078C1B85A9E000B4BDB6 /* food-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A7078B1B85A9E000B4BDB6 /* food-icon.png */; };
+		24ADB6751D08EE5500808D9C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 24ADB6741D08EE5500808D9C /* Podfile */; };
+		24B74D6E1B851B0400D9D4DB /* altAllergenNames.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24B74D6D1B851B0400D9D4DB /* altAllergenNames.txt */; };
+		24E252CF1BC4BB0F006FDA02 /* startButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E252CE1BC4BB0F006FDA02 /* startButton.png */; };
+		24E60C371B852F490087E9E6 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E60C361B852F490087E9E6 /* StreamReader.swift */; };
+		24FC7F4C1D220757009AD67E /* GKClasses in Resources */ = {isa = PBXBuildFile; fileRef = 24FC7F4A1D220757009AD67E /* GKClasses */; };
+		24FC7F4D1D220757009AD67E /* GKImages in Resources */ = {isa = PBXBuildFile; fileRef = 24FC7F4B1D220757009AD67E /* GKImages */; };
+		24FC7F4F1D22DC44009AD67E /* TranslateQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FC7F4E1D22DC44009AD67E /* TranslateQuery.swift */; };
+		24FC7F511D22FB40009AD67E /* languages.txt in Resources */ = {isa = PBXBuildFile; fileRef = 24FC7F501D22FB40009AD67E /* languages.txt */; };
+		6B52E5742E16558953C454D7 /* Pods_Allergy_Snapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04297FFE1B475496C55DFDBD /* Pods_Allergy_Snapper.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2450DD391B79347100082A8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2450DD191B79347100082A8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2450DD201B79347100082A8B;
+			remoteInfo = AllergyScannerTabbed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04297FFE1B475496C55DFDBD /* Pods_Allergy_Snapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Allergy_Snapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2424A0B81B861845007B3D37 /* button-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-2.png"; sourceTree = "<group>"; };
+		2424A0BA1B864F0A007B3D37 /* Good_Food_Display_-_NCI_Visuals_Online.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Good_Food_Display_-_NCI_Visuals_Online.jpg"; sourceTree = "<group>"; };
+		242B00A41B7EBEE100C4BB0B /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		242B00A81B7EBF0F00C4BB0B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		242B00AA1B7EBF5500C4BB0B /* AllergyScannerTabbed-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AllergyScannerTabbed-Bridging-Header.h"; sourceTree = "<group>"; };
+		242B00AB1B7EBF5500C4BB0B /* FakeObjecticeCClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeObjecticeCClass.h; sourceTree = "<group>"; };
+		242B00AC1B7EBF5500C4BB0B /* FakeObjecticeCClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeObjecticeCClass.m; sourceTree = "<group>"; };
+		242CDE461BC4E67300ABB22D /* AllergenCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllergenCell.swift; sourceTree = "<group>"; };
+		242CDE481BC4EFD800ABB22D /* addAllergenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addAllergenButton.png; sourceTree = "<group>"; };
+		243280341B805F8500E31A8B /* camPic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camPic.png; sourceTree = "<group>"; };
+		243280451B806B6C00E31A8B /* yellowButton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellowButton.jpg; sourceTree = "<group>"; };
+		24358C281D08F659005AF799 /* CleverTapSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleverTapSDK.framework; path = "../Pods/CleverTap-iOS-SDK/CleverTapSDK.framework"; sourceTree = "<group>"; };
+		2450DD211B79347100082A8B /* Allergy Snapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Allergy Snapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2450DD251B79347100082A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2450DD261B79347100082A8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2450DD2D1B79347100082A8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2450DD2F1B79347100082A8B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2450DD321B79347100082A8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2450DD381B79347100082A8B /* Allergy Snapper.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Allergy Snapper.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2450DD3D1B79347100082A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2450DD3E1B79347100082A8B /* AllergyScannerTabbedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergyScannerTabbedTests.swift; sourceTree = "<group>"; };
+		2450DD481B7934A200082A8B /* AddAllergenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAllergenViewController.swift; sourceTree = "<group>"; };
+		2450DD4A1B7934AA00082A8B /* UserAllergiesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserAllergiesTableViewController.swift; sourceTree = "<group>"; };
+		2450DD4C1B7940DB00082A8B /* GetIngredientsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetIngredientsViewController.swift; sourceTree = "<group>"; };
+		2452EA011BC572A500E22A00 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		2465CD261B794FEA00C6628A /* food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = food.jpg; sourceTree = "<group>"; };
+		246B6DD21BC5B10D0070C763 /* checkButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkButton.png; sourceTree = "<group>"; };
+		24702C4B1B796205008A0509 /* TakePictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakePictureViewController.swift; sourceTree = "<group>"; };
+		24850D3F1D33F60F00A2F269 /* libTrackAndAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTrackAndAd.a; sourceTree = "<group>"; };
+		24850D401D33F60F00A2F269 /* TrackAndAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackAndAd.h; sourceTree = "<group>"; };
+		24850D421D33F62700A2F269 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		24850D441D33F63000A2F269 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		24850D461D33F63800A2F269 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		24850D481D33F64000A2F269 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		24850D4A1D33F64D00A2F269 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2496F30A1B80772B0081A2C1 /* redButton.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = redButton.gif; sourceTree = "<group>"; };
+		2496F3121B807B5E0081A2C1 /* alert.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = alert.gif; sourceTree = "<group>"; };
+		249B093A1B85AB6100F9DF62 /* exclamation_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exclamation_red.png; sourceTree = "<group>"; };
+		249B093C1B85ABC600F9DF62 /* error2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error2.png; sourceTree = "<group>"; };
+		249CB9731B80196600A0FFD2 /* allergy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = allergy.jpg; sourceTree = "<group>"; };
+		24A30DD01BC61607007DC4EE /* backgroundButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundButton.png; sourceTree = "<group>"; };
+		24A7077F1B85A55000B4BDB6 /* Compact Camera Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Compact Camera Filled-50.png"; sourceTree = "<group>"; };
+		24A707811B85A5AD00B4BDB6 /* User Menu Filled-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User Menu Filled-50.png"; sourceTree = "<group>"; };
+		24A707851B85A75F00B4BDB6 /* allergenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = allergenButton.png; sourceTree = "<group>"; };
+		24A707891B85A86500B4BDB6 /* camera-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-icon.png"; sourceTree = "<group>"; };
+		24A7078B1B85A9E000B4BDB6 /* food-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "food-icon.png"; sourceTree = "<group>"; };
+		24ADB6741D08EE5500808D9C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24B74D6D1B851B0400D9D4DB /* altAllergenNames.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = altAllergenNames.txt; sourceTree = "<group>"; };
+		24E252CE1BC4BB0F006FDA02 /* startButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startButton.png; sourceTree = "<group>"; };
+		24E60C361B852F490087E9E6 /* StreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamReader.swift; sourceTree = "<group>"; };
+		24FC7F4A1D220757009AD67E /* GKClasses */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GKClasses; sourceTree = "<group>"; };
+		24FC7F4B1D220757009AD67E /* GKImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GKImages; sourceTree = "<group>"; };
+		24FC7F4E1D22DC44009AD67E /* TranslateQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TranslateQuery.swift; sourceTree = "<group>"; };
+		24FC7F501D22FB40009AD67E /* languages.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = languages.txt; sourceTree = "<group>"; };
+		4138CCC098045587259F4DE1 /* Pods-Allergy Snapper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Allergy Snapper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Allergy Snapper/Pods-Allergy Snapper.debug.xcconfig"; sourceTree = "<group>"; };
+		BD6DB73BA586734351A2B831 /* Pods-Allergy Snapper.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Allergy Snapper.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-Allergy Snapper/Pods-Allergy Snapper.distribution.xcconfig"; sourceTree = "<group>"; };
+		C77EBFDF0C3930F45D9262FD /* Pods-Allergy Snapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Allergy Snapper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Allergy Snapper/Pods-Allergy Snapper.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2450DD1E1B79347100082A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24850D4B1D33F64D00A2F269 /* CoreLocation.framework in Frameworks */,
+				24850D491D33F64000A2F269 /* iAd.framework in Frameworks */,
+				24850D471D33F63800A2F269 /* AdSupport.framework in Frameworks */,
+				24850D451D33F63000A2F269 /* Foundation.framework in Frameworks */,
+				24850D431D33F62700A2F269 /* UIKit.framework in Frameworks */,
+				2452EA021BC572A500E22A00 /* libstdc++.tbd in Frameworks */,
+				24358C291D08F659005AF799 /* CleverTapSDK.framework in Frameworks */,
+				242B00A91B7EBF0F00C4BB0B /* CoreImage.framework in Frameworks */,
+				24850D411D33F60F00A2F269 /* libTrackAndAd.a in Frameworks */,
+				6B52E5742E16558953C454D7 /* Pods_Allergy_Snapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2450DD351B79347100082A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2432803A1B80651200E31A8B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				24A30DD01BC61607007DC4EE /* backgroundButton.png */,
+				243280451B806B6C00E31A8B /* yellowButton.jpg */,
+				24E252CE1BC4BB0F006FDA02 /* startButton.png */,
+				2424A0BA1B864F0A007B3D37 /* Good_Food_Display_-_NCI_Visuals_Online.jpg */,
+				242CDE481BC4EFD800ABB22D /* addAllergenButton.png */,
+				246B6DD21BC5B10D0070C763 /* checkButton.png */,
+				249B093A1B85AB6100F9DF62 /* exclamation_red.png */,
+				2424A0B81B861845007B3D37 /* button-2.png */,
+				24A7078B1B85A9E000B4BDB6 /* food-icon.png */,
+				24A707891B85A86500B4BDB6 /* camera-icon.png */,
+				24A707851B85A75F00B4BDB6 /* allergenButton.png */,
+				2496F3121B807B5E0081A2C1 /* alert.gif */,
+				249B093C1B85ABC600F9DF62 /* error2.png */,
+				2496F30A1B80772B0081A2C1 /* redButton.gif */,
+				24A707811B85A5AD00B4BDB6 /* User Menu Filled-50.png */,
+				24A7077F1B85A55000B4BDB6 /* Compact Camera Filled-50.png */,
+				249CB9731B80196600A0FFD2 /* allergy.jpg */,
+				2465CD261B794FEA00C6628A /* food.jpg */,
+				243280341B805F8500E31A8B /* camPic.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		2450DD181B79347100082A8B = {
+			isa = PBXGroup;
+			children = (
+				24850D3F1D33F60F00A2F269 /* libTrackAndAd.a */,
+				24850D401D33F60F00A2F269 /* TrackAndAd.h */,
+				24ADB6741D08EE5500808D9C /* Podfile */,
+				2452EA011BC572A500E22A00 /* libstdc++.tbd */,
+				242B00AB1B7EBF5500C4BB0B /* FakeObjecticeCClass.h */,
+				242B00AC1B7EBF5500C4BB0B /* FakeObjecticeCClass.m */,
+				242B00A81B7EBF0F00C4BB0B /* CoreImage.framework */,
+				2450DD231B79347100082A8B /* AllergyScannerTabbed */,
+				2450DD3B1B79347100082A8B /* AllergyScannerTabbedTests */,
+				2450DD221B79347100082A8B /* Products */,
+				242B00AA1B7EBF5500C4BB0B /* AllergyScannerTabbed-Bridging-Header.h */,
+				7606E8306E89665B984D12C8 /* Pods */,
+				C81D61D6327EB7109615B046 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2450DD221B79347100082A8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2450DD211B79347100082A8B /* Allergy Snapper.app */,
+				2450DD381B79347100082A8B /* Allergy Snapper.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2450DD231B79347100082A8B /* AllergyScannerTabbed */ = {
+			isa = PBXGroup;
+			children = (
+				24FC7F4A1D220757009AD67E /* GKClasses */,
+				24FC7F4B1D220757009AD67E /* GKImages */,
+				24358C281D08F659005AF799 /* CleverTapSDK.framework */,
+				24702C4B1B796205008A0509 /* TakePictureViewController.swift */,
+				24FC7F4E1D22DC44009AD67E /* TranslateQuery.swift */,
+				24FC7F501D22FB40009AD67E /* languages.txt */,
+				24B74D6D1B851B0400D9D4DB /* altAllergenNames.txt */,
+				242CDE461BC4E67300ABB22D /* AllergenCell.swift */,
+				2450DD481B7934A200082A8B /* AddAllergenViewController.swift */,
+				2450DD4A1B7934AA00082A8B /* UserAllergiesTableViewController.swift */,
+				2450DD4C1B7940DB00082A8B /* GetIngredientsViewController.swift */,
+				24E60C361B852F490087E9E6 /* StreamReader.swift */,
+				2450DD261B79347100082A8B /* AppDelegate.swift */,
+				2450DD2C1B79347100082A8B /* Main.storyboard */,
+				2450DD2F1B79347100082A8B /* Images.xcassets */,
+				2450DD311B79347100082A8B /* LaunchScreen.xib */,
+				2432803A1B80651200E31A8B /* Images */,
+				2450DD241B79347100082A8B /* Supporting Files */,
+			);
+			path = AllergyScannerTabbed;
+			sourceTree = "<group>";
+		};
+		2450DD241B79347100082A8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				242B00A41B7EBEE100C4BB0B /* tessdata */,
+				2450DD251B79347100082A8B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2450DD3B1B79347100082A8B /* AllergyScannerTabbedTests */ = {
+			isa = PBXGroup;
+			children = (
+				2450DD3E1B79347100082A8B /* AllergyScannerTabbedTests.swift */,
+				2450DD3C1B79347100082A8B /* Supporting Files */,
+			);
+			path = AllergyScannerTabbedTests;
+			sourceTree = "<group>";
+		};
+		2450DD3C1B79347100082A8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2450DD3D1B79347100082A8B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7606E8306E89665B984D12C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4138CCC098045587259F4DE1 /* Pods-Allergy Snapper.debug.xcconfig */,
+				C77EBFDF0C3930F45D9262FD /* Pods-Allergy Snapper.release.xcconfig */,
+				BD6DB73BA586734351A2B831 /* Pods-Allergy Snapper.distribution.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C81D61D6327EB7109615B046 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24850D4A1D33F64D00A2F269 /* CoreLocation.framework */,
+				24850D481D33F64000A2F269 /* iAd.framework */,
+				24850D461D33F63800A2F269 /* AdSupport.framework */,
+				24850D441D33F63000A2F269 /* Foundation.framework */,
+				24850D421D33F62700A2F269 /* UIKit.framework */,
+				04297FFE1B475496C55DFDBD /* Pods_Allergy_Snapper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2450DD201B79347100082A8B /* Allergy Snapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2450DD421B79347100082A8B /* Build configuration list for PBXNativeTarget "Allergy Snapper" */;
+			buildPhases = (
+				3A1FF7A061237BE0FE7FF514 /* [CP] Check Pods Manifest.lock */,
+				2450DD1D1B79347100082A8B /* Sources */,
+				2450DD1E1B79347100082A8B /* Frameworks */,
+				2450DD1F1B79347100082A8B /* Resources */,
+				15260EE4BBDBB45A77BC13D9 /* [CP] Embed Pods Frameworks */,
+				1EE03AC8B6809DE3C1FF7056 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Allergy Snapper";
+			productName = AllergyScannerTabbed;
+			productReference = 2450DD211B79347100082A8B /* Allergy Snapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2450DD371B79347100082A8B /* Allergy SnapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2450DD451B79347100082A8B /* Build configuration list for PBXNativeTarget "Allergy SnapperTests" */;
+			buildPhases = (
+				2450DD341B79347100082A8B /* Sources */,
+				2450DD351B79347100082A8B /* Frameworks */,
+				2450DD361B79347100082A8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2450DD3A1B79347100082A8B /* PBXTargetDependency */,
+			);
+			name = "Allergy SnapperTests";
+			productName = AllergyScannerTabbedTests;
+			productReference = 2450DD381B79347100082A8B /* Allergy Snapper.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2450DD191B79347100082A8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "nikash khanna";
+				TargetAttributes = {
+					2450DD201B79347100082A8B = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = G3PGGXHF23;
+						LastSwiftMigration = 0820;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					2450DD371B79347100082A8B = {
+						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0820;
+						TestTargetID = 2450DD201B79347100082A8B;
+					};
+				};
+			};
+			buildConfigurationList = 2450DD1C1B79347100082A8B /* Build configuration list for PBXProject "Allergy Snapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2450DD181B79347100082A8B;
+			productRefGroup = 2450DD221B79347100082A8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2450DD201B79347100082A8B /* Allergy Snapper */,
+				2450DD371B79347100082A8B /* Allergy SnapperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2450DD1F1B79347100082A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A707801B85A55000B4BDB6 /* Compact Camera Filled-50.png in Resources */,
+				24A7078A1B85A86500B4BDB6 /* camera-icon.png in Resources */,
+				2450DD2E1B79347100082A8B /* Main.storyboard in Resources */,
+				24A30DD11BC61607007DC4EE /* backgroundButton.png in Resources */,
+				249B093B1B85AB6100F9DF62 /* exclamation_red.png in Resources */,
+				2450DD331B79347100082A8B /* LaunchScreen.xib in Resources */,
+				2424A0BB1B864F0A007B3D37 /* Good_Food_Display_-_NCI_Visuals_Online.jpg in Resources */,
+				24A707821B85A5AD00B4BDB6 /* User Menu Filled-50.png in Resources */,
+				242CDE491BC4EFD800ABB22D /* addAllergenButton.png in Resources */,
+				249B093D1B85ABC600F9DF62 /* error2.png in Resources */,
+				24ADB6751D08EE5500808D9C /* Podfile in Resources */,
+				243280351B805F8500E31A8B /* camPic.png in Resources */,
+				24B74D6E1B851B0400D9D4DB /* altAllergenNames.txt in Resources */,
+				243280461B806B6C00E31A8B /* yellowButton.jpg in Resources */,
+				2424A0B91B861845007B3D37 /* button-2.png in Resources */,
+				24E252CF1BC4BB0F006FDA02 /* startButton.png in Resources */,
+				246B6DD31BC5B10D0070C763 /* checkButton.png in Resources */,
+				24A7078C1B85A9E000B4BDB6 /* food-icon.png in Resources */,
+				24A707861B85A75F00B4BDB6 /* allergenButton.png in Resources */,
+				242B00A51B7EBEE100C4BB0B /* tessdata in Resources */,
+				2450DD301B79347100082A8B /* Images.xcassets in Resources */,
+				24FC7F4D1D220757009AD67E /* GKImages in Resources */,
+				24FC7F511D22FB40009AD67E /* languages.txt in Resources */,
+				24FC7F4C1D220757009AD67E /* GKClasses in Resources */,
+				2496F30B1B80772B0081A2C1 /* redButton.gif in Resources */,
+				249CB9741B80196600A0FFD2 /* allergy.jpg in Resources */,
+				2465CD271B794FEA00C6628A /* food.jpg in Resources */,
+				2496F3131B807B5E0081A2C1 /* alert.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2450DD361B79347100082A8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15260EE4BBDBB45A77BC13D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Allergy Snapper/Pods-Allergy Snapper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EE03AC8B6809DE3C1FF7056 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Allergy Snapper/Pods-Allergy Snapper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A1FF7A061237BE0FE7FF514 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2450DD1D1B79347100082A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FC7F4F1D22DC44009AD67E /* TranslateQuery.swift in Sources */,
+				2450DD4D1B7940DB00082A8B /* GetIngredientsViewController.swift in Sources */,
+				2450DD491B7934A200082A8B /* AddAllergenViewController.swift in Sources */,
+				24702C4C1B796205008A0509 /* TakePictureViewController.swift in Sources */,
+				24E60C371B852F490087E9E6 /* StreamReader.swift in Sources */,
+				2450DD4B1B7934AA00082A8B /* UserAllergiesTableViewController.swift in Sources */,
+				242B00AD1B7EBF5500C4BB0B /* FakeObjecticeCClass.m in Sources */,
+				2450DD271B79347100082A8B /* AppDelegate.swift in Sources */,
+				242CDE471BC4E67300ABB22D /* AllergenCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2450DD341B79347100082A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2450DD3F1B79347100082A8B /* AllergyScannerTabbedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2450DD3A1B79347100082A8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2450DD201B79347100082A8B /* Allergy Snapper */;
+			targetProxy = 2450DD391B79347100082A8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2450DD2C1B79347100082A8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2450DD2D1B79347100082A8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2450DD311B79347100082A8B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2450DD321B79347100082A8B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2450DD401B79347100082A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Urna Roy (G3PGGXHF23)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Urna Roy (G3PGGXHF23)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2450DD411B79347100082A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Urna Roy (G3PGGXHF23)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Urna Roy (G3PGGXHF23)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2450DD431B79347100082A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4138CCC098045587259F4DE1 /* Pods-Allergy Snapper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AllergyScannerTabbed",
+					"$(PROJECT_DIR)/Pods/CleverTap-iOS-SDK",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AllergyScannerTabbed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikashkhanna.AllergySnapper;
+				PRODUCT_NAME = "Allergy Snapper";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AllergyScannerTabbed-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2450DD441B79347100082A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C77EBFDF0C3930F45D9262FD /* Pods-Allergy Snapper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AllergyScannerTabbed",
+					"$(PROJECT_DIR)/Pods/CleverTap-iOS-SDK",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AllergyScannerTabbed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikashkhanna.AllergySnapper;
+				PRODUCT_NAME = "Allergy Snapper";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AllergyScannerTabbed-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2450DD461B79347100082A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AllergyScannerTabbedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikashkhanna.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Allergy Snapper";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Allergy Snapper.app/Allergy Snapper";
+			};
+			name = Debug;
+		};
+		2450DD471B79347100082A8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AllergyScannerTabbedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikashkhanna.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Allergy Snapper";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Allergy Snapper.app/Allergy Snapper";
+			};
+			name = Release;
+		};
+		24EC8CAA1BCC43120035BBE2 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Urna Roy (G3PGGXHF23)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Urna Roy (G3PGGXHF23)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		24EC8CAB1BCC43120035BBE2 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD6DB73BA586734351A2B831 /* Pods-Allergy Snapper.distribution.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AllergyScannerTabbed",
+					"$(PROJECT_DIR)/Pods/CleverTap-iOS-SDK",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AllergyScannerTabbed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikashkhanna.AllergySnapper;
+				PRODUCT_NAME = "Allergy Snapper";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "AllergyScannerTabbed-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		24EC8CAC1BCC43120035BBE2 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AllergyScannerTabbedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nikashkhanna.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Allergy Snapper";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Allergy Snapper.app/Allergy Snapper";
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2450DD1C1B79347100082A8B /* Build configuration list for PBXProject "Allergy Snapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2450DD401B79347100082A8B /* Debug */,
+				2450DD411B79347100082A8B /* Release */,
+				24EC8CAA1BCC43120035BBE2 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2450DD421B79347100082A8B /* Build configuration list for PBXNativeTarget "Allergy Snapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2450DD431B79347100082A8B /* Debug */,
+				2450DD441B79347100082A8B /* Release */,
+				24EC8CAB1BCC43120035BBE2 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2450DD451B79347100082A8B /* Build configuration list for PBXNativeTarget "Allergy SnapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2450DD461B79347100082A8B /* Debug */,
+				2450DD471B79347100082A8B /* Release */,
+				24EC8CAC1BCC43120035BBE2 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2450DD191B79347100082A8B /* Project object */;
+}

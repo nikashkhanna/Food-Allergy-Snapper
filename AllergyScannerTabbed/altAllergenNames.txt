@@ -1,0 +1,138 @@
+*eggs
+egg
+Albumin
+Apovitellin
+Eggnog
+Globulin
+Livetin
+Lysozyme
+Mayonnaise
+Meringue
+meringue powder
+Ovalbumin
+Ovoglobulin
+Ovomucin
+Ovomucoid
+Ovotransferrin
+Ovovitelia
+Ovovitellin
+Silici albuminate
+Simplesse
+Surimi
+Trailblazer
+Vitellin
+*milk
+Butter
+Casein
+caseinates
+Cheese
+Cream
+Curds
+Custard
+Dairy product solids
+Galactose
+Ghee
+Half & Half
+Hydrolysates
+Lactalbumin
+lactalbumin phosphate
+Lactate solids
+Lactyc yeast
+Lactitol monohydrate
+Lactoglobulin
+Lactose
+Lactulose
+Nisin
+Nougat
+Pudding
+Quark
+Recaldent
+Rennet
+rennet casein
+Simplesse
+Whey
+Yogurt
+Yoghurt
+*peanuts
+nut
+peanut
+Arachic oil
+Arachis
+Arachis hypogaea
+Goober
+Mandelonas
+Nutmeat
+*tree nuts
+nut
+tree nut
+Almond
+Beechnut
+Brazil nut
+Bush nut
+Butternut
+Cashew
+Chestnut
+Coconut
+Filbert
+Ginko nut
+Hazelnut
+Hickory nut
+Lichee nut
+Macadamia nut
+Nangai nut
+Pecan
+Pine nut
+Pistachio
+Shea nut
+Walnut
+*wheat
+Flour
+Bread
+Bulgur
+Cereal extract
+Couscous
+Cracker meal
+Einkorn
+Emmer
+Farina
+Fu
+Gluten
+Kamut
+Malt
+Matzo
+Noodles
+Pasta
+Seitan
+Semolina
+Spelt
+Tabbouleh
+Triticale
+Triticum
+Wheatgrass
+*soy
+Bean curd
+Edamame
+Kinnoko
+Kyodofu
+Miso
+Natto
+Okara
+Shoyu sauce
+Soya
+Soybeans
+Supro
+Tamari
+Tempeh
+Teriyaki sauce
+Tofu
+Yakidofu
+Yuba
+*shellfish
+barnacle
+crab
+crawfish (crawdad, crayfish, ecrevisse)
+krill
+lobster (langouste, langoustine, Moreton bay bugs, scampi, tomalley)
+prawns
+shrimp (crevette, scampi)
+*
